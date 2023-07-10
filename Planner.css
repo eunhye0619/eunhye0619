@@ -1,0 +1,17 @@
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F1F1;
+    height: 60px;
+    font-size: 40px;
+}
+.menu{
+  margin: 10px 5px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;  
+  font-family: TAEBAEK milkyway;
+}
