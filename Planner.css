@@ -89,3 +89,11 @@
 .dateTitle{
   font-size: 30px;
 }
+
+.grid.dateBoard div:nth-child(7n+1) {
+  color: red;
+}
+
+.grid.dateBoard div:nth-child(7n) {
+  color: blue;
+}
