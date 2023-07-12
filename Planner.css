@@ -5,7 +5,7 @@
   height: 45px;
   font-size: 40px;
 }
-.menu1 .menu2 .menu3{
+.menu1, .menu2, .menu3{
   margin: 20px 5px;
 }
 
