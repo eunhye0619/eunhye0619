@@ -4,70 +4,66 @@
     background-color: #F6F1F1;
     height: 45px;
     font-size: 40px;
-  }
-  .menu1, .menu2, .menu3{
-    margin: 20px 5px;
-  }
+}
+.menu2{
+     margin: 5px 5px;
+     text-decoration: none;
+}
   
-  * {
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;  
     font-family: TAEBAEK milkyway;
-  }
+}
+
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .input-wrapper {
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  .input-wrapper input[type="text"] {
-    flex: 1;
-    padding: 5px;
-  }
-  
-  .input-wrapper button {
-    padding: 5px 10px;
-    margin-left: 10px;
-  }
-  
-  table {
-    width: 100%;
+    width: 756px;
+    float: left;
+    border-right: 1px solid black;
+}
+
+.todo{
+    margin-top: 10px;
+}
+
+.tl{
+    margin-top: 10px;
+}
+
+#inputFiled {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.to-dos {
+    margin-top:25px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #F6F1F1;
+}
+table {
     border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  table th,
-  table td {
-    padding: 8px;
-    border: 1px solid #ddd;
-  }
-  
-  .time {
-    width: 20%;
-  }
-  
-  .task {
-    width: 60%;
-  }
-  
-  .taskInput {
-    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
     padding: 5px;
-  }
-  
-  .addButton {
-    margin-left: 10px;
-    padding: 5px 10px;
-  }
-  
-  .deleteButton {
-    padding: 5px 10px;
-  }
-  
+}
+
+thead{
+    background-color: #AFD3E2;
+}
+tbody{
+    background-color: #F6F1F1;
+}
+
+#scheduleTable{
+    width: 756px;
+}
